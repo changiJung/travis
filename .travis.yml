@@ -13,4 +13,5 @@ jdk:
 #gradle assemble
 
 script:
-  - chmod +x ./gradlew build --scan -s
+  #- chmod +x ./gradlew build --scan -s
+   - chmod +x ./gradlew build connectedCheck
