@@ -4,8 +4,10 @@ language: java
 install: true
 
 #os: linux
-#dist: trusty
-jdk: oraclejdk8
+dist: trusty
+jdk: 
+ - openjdk8
+ - openjdk11
 
-#script:
-  #- ./gradlew build --scan -s
+script:
+  - ./gradlew build --scan -s
