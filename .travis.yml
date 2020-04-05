@@ -12,6 +12,6 @@ jdk:
 #gradle 이미 수행
 #gradle assemble
 
-script:
+#script:
   #- chmod +x ./gradlew build --scan -s
-   - chmod +x ./gradlew build connectedCheck
+ #  - chmod +x ./gradlew build connectedCheck
