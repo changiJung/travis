@@ -1,4 +1,9 @@
+
+
 #test for git
+
+before_install:
+  - chomod +x gradlew
 
 language: java
 install: true
@@ -15,3 +20,5 @@ jdk:
 #script:
   #- chmod +x ./gradlew build --scan -s
  #  - chmod +x ./gradlew build connectedCheck
+ 
+ 
