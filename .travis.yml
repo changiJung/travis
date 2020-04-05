@@ -13,4 +13,4 @@ jdk:
 #gradle assemble
 
 script:
- - ./gradlew check
+  - chmod +x ./gradlew build --scan -s
