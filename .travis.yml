@@ -9,5 +9,8 @@ jdk:
  - openjdk8
  - openjdk11
 
+#gradle 이미 수행
+#gradle assemble
+
 script:
-  - ./gradlew build --scan -s
+ - ./gradlew check
